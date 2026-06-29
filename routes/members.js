@@ -16,7 +16,7 @@ const members = structuredClone(initialMembers);
 
 // 2. 下一個新增會員要使用的 id
 /* 作答區 */
-let nextId = 5;
+let nextId = members.length + 1;
 
 
 // 3. 兩個內部 helper 函式
